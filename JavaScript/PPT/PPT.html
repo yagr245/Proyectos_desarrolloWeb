@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="PPT.css">
+</head>
+<body>
+    <div class="alinear">
+        <div>
+            <div class="superior">
+                <div class="jugador">
+                    <p>Jugador</p>
+                    <input type="text" id="jugador">
+                </div>
+                <div class="PC">
+                    <p>PC</p>
+                    <input type="text" id="computer">
+                </div>
+            </div>
+            <div class="medio">
+                <div class="piedra">
+                    <button type="button" id="piedra" onclick="computadora('Piedra')">
+                        <img src="images/piedra.png" alt="piedra">
+                    </button>
+                </div>
+                <div class="papel">
+                    <button type="button" id="papel" onclick="computadora('Papel')">
+                        <img src="images/papel.png" alt="papel">
+                    </button>
+                </div>
+                <div class="tijera">
+                    <button type="button" id="tijera" onclick="computadora('Tijera')">
+                        <img src="images/tijera.png" alt="tijera">
+                    </button>
+                </div>
+            </div>
+            <div class="partidas">
+                <div class="PC">
+                    <p>Ganadas</p>
+                    <input type="number" id="ganadas" value="0">
+                </div>
+                <div class="jugador">
+                    <p>Perdidas</p>
+                    <input type="number" id="perdidas" value="0">
+                </div>
+            </div>
+            <div class="superior">
+                <div class="resultado">
+                    <div class="barra_contador">
+                        <input type="text" id="contador" value="0">
+                        <div class="mostrar">
+                            <div class="result1">
+                                <textarea type="text" id="resultado1"></textarea>
+                            </div>
+                            <div class="result2">
+                                <textarea type="text" id="resultado2"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="PPT.js"></script> 
+</html>

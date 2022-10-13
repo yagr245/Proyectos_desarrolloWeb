@@ -1,0 +1,480 @@
+body {
+  background-color: #EAEDED;
+}
+
+.nav {
+  display: flex;
+  background-color: #131921;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.3rem 0 0.3rem 0;
+}
+.nav button {
+  background-color: #131921;
+  border: none;
+}
+.nav button:hover {
+  border: solid 1px white;
+}
+.nav .envio button {
+  display: flex;
+  align-items: center;
+}
+.nav .envio button i {
+  color: white;
+}
+.nav .envio button .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nav .envio button .texto .enviar {
+  color: #CCCCCC;
+  margin-bottom: -0.4rem;
+  font-size: 0.75rem;
+}
+.nav .envio button .texto .venezuela {
+  color: white;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.nav .busqueda {
+  display: flex;
+}
+.nav .busqueda .todos {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #F3F3F3;
+  border-radius: 0.2rem 0 0 0.2rem;
+  height: 2.66rem;
+}
+.nav .busqueda .todos .todosp {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+.nav .busqueda .todos i {
+  font-size: 0.5rem;
+}
+.nav .busqueda .todos:hover {
+  background-color: #CCCCCC;
+}
+.nav .busqueda input {
+  height: 2.7rem;
+  width: 30rem;
+}
+.nav .busqueda .lupa {
+  background-color: #FEBD69;
+  width: 2.5rem;
+  height: 2.67rem;
+  border: none;
+}
+.nav .busqueda .lupa:hover {
+  background-color: #F3A847;
+}
+.nav .final {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .final .eeuu {
+  display: flex;
+  align-items: center;
+}
+.nav .final .eeuu img {
+  width: 1.5rem;
+  height: 1rem;
+}
+.nav .final .eeuu p {
+  color: white;
+  padding: 0.75rem 0.3rem 0 0.3rem;
+  font-weight: 600;
+}
+.nav .final .eeuu i {
+  color: #CCCCCC;
+  font-size: 0.5rem;
+}
+.nav .final .hola {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+.nav .final .hola .primera {
+  margin-bottom: -0.4rem;
+  font-size: 0.75rem;
+}
+.nav .final .hola .segunda {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  background-color: #232F3E;
+  align-items: center;
+  justify-content: start;
+  padding: 0.3rem 0 0.3rem 0;
+}
+.menu button {
+  background-color: #232F3E;
+  border: none;
+  color: white;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
+.menu button:hover {
+  border: solid 1px white;
+}
+.menu .todo {
+  display: flex;
+  align-items: center;
+}
+.menu .todo p {
+  padding: 0.85rem 0 0 0.2rem;
+}
+.menu .todo i {
+  font-size: 1.5rem;
+}
+
+.pc img {
+  width: 100vw;
+}
+
+.primera-publicidad {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../img/background.PNG");
+}
+.primera-publicidad .seccion1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  width: 55rem;
+  margin: 1rem 0.5rem 1rem 0.75rem;
+}
+.primera-publicidad .seccion1 h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.primera-publicidad .seccion1 button {
+  background-color: #FFD814;
+  border: none;
+  border-radius: 0.5rem;
+  width: 16rem;
+  height: 2rem;
+  font-size: 0.85rem;
+}
+.primera-publicidad .seccion2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  width: 55rem;
+  margin: 1rem 0.5rem 1rem 0.75rem;
+}
+.primera-publicidad .seccion2 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.primera-publicidad .seccion2 button {
+  background-color: white;
+  border: none;
+}
+.primera-publicidad .seccion2 p {
+  color: #007185;
+}
+.primera-publicidad .seccion2 p:hover {
+  color: #F3A847;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.primera-publicidad .seccion3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  width: 55rem;
+  margin: 1rem 2rem 1rem 0.5rem;
+}
+.primera-publicidad .seccion3 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.primera-publicidad .seccion3 .accesorios {
+  display: flex;
+  flex-direction: column;
+}
+.primera-publicidad .seccion3 .accesorios .fila {
+  display: flex;
+}
+.primera-publicidad .seccion3 .accesorios .fila button {
+  margin: 0.2rem;
+  background-color: white;
+  border: none;
+}
+.primera-publicidad .seccion3 .accesorios .fila button img {
+  width: 7rem;
+  height: 9.3rem;
+}
+.primera-publicidad .seccion3 p {
+  color: #007185;
+}
+.primera-publicidad .seccion3 p:hover {
+  color: #F3A847;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.segunda-publicidad {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.tercera-publicidad {
+  display: flex;
+  justify-content: space-between;
+}
+.tercera-publicidad .seccion2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  width: 55rem;
+  margin: 1rem 0.5rem 1rem 0.75rem;
+}
+.tercera-publicidad .seccion2 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.tercera-publicidad .seccion2 button {
+  background-color: white;
+  border: none;
+}
+.tercera-publicidad .seccion2 p {
+  color: #007185;
+}
+.tercera-publicidad .seccion2 p:hover {
+  color: #F3A847;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tercera-publicidad .seccion3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  width: 55rem;
+  margin: 1rem 2rem 1rem 0.5rem;
+}
+.tercera-publicidad .seccion3 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.tercera-publicidad .seccion3 .accesorios {
+  display: flex;
+  flex-direction: column;
+}
+.tercera-publicidad .seccion3 .accesorios .fila {
+  display: flex;
+}
+.tercera-publicidad .seccion3 .accesorios .fila button {
+  margin: 0.2rem;
+  background-color: white;
+  border: none;
+}
+.tercera-publicidad .seccion3 .accesorios .fila button img {
+  width: 7rem;
+  height: 9.3rem;
+}
+.tercera-publicidad .seccion3 p {
+  color: #007185;
+}
+.tercera-publicidad .seccion3 p:hover {
+  color: #F3A847;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.recomendaciones {
+  background-color: white;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recomendaciones .identificacion {
+  border-top: solid 1px #DDDDDD;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-bottom: solid 1px #DDDDDD;
+  height: 8rem;
+  width: 100vw;
+}
+.recomendaciones .identificacion .rec {
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+.recomendaciones .identificacion button {
+  background-color: #FFC83D;
+  border: solid 1px #E6A502;
+  width: 14rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+}
+.recomendaciones .identificacion .cliente {
+  display: flex;
+  font-size: 0.75rem;
+}
+.recomendaciones .identificacion .cliente .nuevo {
+  padding-right: 0.2rem;
+}
+.recomendaciones .identificacion .cliente .empezar {
+  color: #0087B8;
+}
+.recomendaciones .identificacion .cliente .empezar:hover {
+  color: #FFC83D;
+  cursor: pointer;
+}
+
+.inicio-pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #37475A;
+}
+.inicio-pagina p {
+  color: white;
+  padding-top: 0.5rem;
+}
+.inicio-pagina:hover {
+  background-color: #404d5c;
+  cursor: pointer;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+  background-color: #232F3E;
+  color: white;
+  border-bottom: solid 1px gray;
+}
+.listas .lista1 {
+  width: 8rem;
+}
+.listas .lista1 ul .titulo {
+  font-weight: 700;
+}
+.listas .lista1 ul .titulo:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.listas .lista1 ul li {
+  list-style: none;
+  padding-top: 0.5rem;
+}
+.listas .lista1 ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.listas .lista2 {
+  width: 15rem;
+}
+.listas .lista2 ul .titulo {
+  font-weight: 700;
+}
+.listas .lista2 ul .titulo:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.listas .lista2 ul li {
+  list-style: none;
+  padding-top: 0.5rem;
+}
+.listas .lista2 ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.listas .lista3 {
+  width: 15rem;
+}
+.listas .lista3 ul .titulo {
+  font-weight: 700;
+}
+.listas .lista3 ul .titulo:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.listas .lista3 ul li {
+  list-style: none;
+  padding-top: 0.5rem;
+}
+.listas .lista3 ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.listas .lista4 {
+  width: 11rem;
+}
+.listas .lista4 ul .titulo {
+  font-weight: 700;
+}
+.listas .lista4 ul .titulo:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.listas .lista4 ul li {
+  list-style: none;
+  padding-top: 0.5rem;
+}
+.listas .lista4 ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.idioma {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #232F3E;
+}
+.idioma .espanol {
+  padding-left: 4rem;
+}
+.idioma .logo:hover {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.75rem;
+  background-color: #131A22;
+  color: white;
+}
+.footer .condiciones {
+  display: flex;
+  margin-top: 1rem;
+}
+.footer .condiciones p {
+  padding: 0 0.5rem 0 0.5rem;
+  margin-bottom: 0;
+}
+.footer .condiciones p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

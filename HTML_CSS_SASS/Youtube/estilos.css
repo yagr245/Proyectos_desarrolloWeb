@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+}
+
+aside{
+    grid-column: span 4;
+}
+
+button{
+    background-color: white;
+    border-style: none;
+    align-items: center;
+    margin: 3px;
+    width: 70px;
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    justify-content: space-between;
+}
+
+button:hover{
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -10px 4px;
+
+}
+
+#rigth_content{
+    grid-column: span 96;
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    padding: 2px 35px;
+
+}
+
+#sup_der{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+
+.inicio2{
+    justify-content: space-between;
+    padding: 3px 45px;
+}
+
+input{
+    font-size: 15px;
+    height: 40px;
+    width: 540px;
+    padding: 10px;
+}
+
+.barra_busqueda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.videos1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 45px;
+    margin-left: 20px;
+}
+
+.columna1{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 1px;
+}
+
+.descripcion{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.subder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.poste{
+    width: 3rem;
+    height: 20rem;
+    background-color: grey;
+}
+
+.centrar{
+    margin-top: 17rem;
+    font-size: 100px;
+    color: red;
+}
+
+.trianguloI{
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 500px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 600px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0.9rem;
+}
+
+.trianguloE{
+    width: 0;
+    height: 0;
+    border-left: 310px solid transparent;
+    border-right: 310px solid transparent;
+    border-bottom: 620px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

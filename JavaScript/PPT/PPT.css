@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.alinear{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-image: url("images/fondo1.jpg");
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /*rellena toda la pantalla*/
+    /* position: fixed; */
+    background-position: center center;
+}
+
+.superior, .medio, .partidas{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.PC, .jugador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piedra, .papel, .tijera{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    color: black;
+}
+
+button{
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover, .comparar:hover{
+    opacity: 0.9;
+}
+
+input{
+    width: 280px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.comparar{
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    border-color: black;
+    width: 80px;
+    height: 50px;
+}
+
+.resultado{
+    display: flex;
+    justify-items: start;
+    align-items: start;
+    padding: 10px;
+}
+
+.mostrar{
+    display: flex;
+    flex-direction: row;
+}
+
+.barra_contador{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.result1, .result2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado1, #resultado2{
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    border-color: black;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+}
+
+#contador{
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    border-color: black;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+/*Se utiliza para adaptar la pagina al tamaño de la resolucion de pantalla de algun
+dispositivo en el que se este visualizando dicha pagina*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .superior, .partidas{
+        display: flex;
+        grid-template-columns: 1fr; /*Permite dividir la pagina en columnas*/
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .PC, .jugador{
+        padding: 10px;
+    }
+
+    .medio, .mostrar{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .superior, .partidas{
+        display: flex;
+        grid-template-columns: 1fr; /*Permite dividir la pagina en columnas*/
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .PC, .jugador{
+        padding: 10px;
+    }
+
+    .medio, .mostrar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .superior, .partidas{
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: row; /*en la resolucion especifica cambia a fila*/
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .medio, .mostrar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .superior, .partidas{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .superior, .partidas{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* function history(jugador, computer){
+    document.getElementById("resultado1").value = "";
+    historial.unshift(jugador + " - " + computer + ", ");
+    if(historial > 5){
+        historial.pop();
+    }
+    for(const recorrido of historial){
+        let node = document.createElement("input");
+        node.value = recorrido;
+        document.getElementById("resultado1").appendChild(node);
+    }
+} */

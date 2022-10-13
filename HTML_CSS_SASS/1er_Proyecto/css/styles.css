@@ -1,0 +1,739 @@
+.btn-main {
+  background-color: #F6D034;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.1rem 1rem;
+}
+.btn-main:hover {
+  background-color: #FCD535;
+  color: #2F3136;
+}
+
+.btn-sec {
+  background-color: white;
+  border: none;
+  padding: 0.1rem 1rem;
+}
+.btn-sec:hover {
+  color: #F6D034;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 0.9rem;
+  list-style: none;
+  display: inline;
+  margin-right: 0.75rem;
+  color: #707A8A;
+}
+.main-menu li .cuadricula {
+  font-size: 1.2rem;
+}
+.main-menu li .arrow {
+  font-size: 0.75rem;
+  color: #707A8A;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  color: #F6D034;
+}
+
+.btn-start {
+  background-color: #F6D034;
+  border-radius: 0.3rem;
+  height: 3rem;
+  border: none;
+  padding: 0.5rem 2.5rem;
+  font-weight: 500;
+}
+.btn-start:hover {
+  background-color: #FCD535;
+  color: #2F3136;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.feature .icon {
+  color: #F6D034;
+  font-size: 4.5rem;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.feature .description .title {
+  font-size: 2rem;
+}
+.feature .description .text {
+  color: #586677;
+}
+
+.icon-sm i {
+  font-size: 5rem;
+  padding: 0.4rem 0.65rem;
+  color: #F6D034;
+}
+
+html {
+  min-width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+}
+.nav .menu-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .menu-1 .logo {
+  display: flex;
+  align-items: center;
+}
+.nav .menu-1 .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.nav .get-started {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.05rem;
+  margin-top: 1rem;
+}
+.nav .get-started .icon-start {
+  margin: 0 1rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav .get-started .icon-start:hover {
+  color: #F6D034;
+  cursor: pointer;
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+.sec-home .home-cta {
+  flex: 1;
+  margin-right: 5rem;
+  margin-left: 2rem;
+}
+.sec-home .home-cta .home-title {
+  width: 30rem;
+  font-size: 3.5rem;
+}
+.sec-home .home-cta .lead-magnet {
+  margin-top: 2.5rem;
+}
+.sec-home .home-cta .lead-magnet .input-col .input-text {
+  width: 17rem;
+  height: 3rem;
+  font-weight: 100;
+  font-size: 0.85rem;
+  border-radius: 0.2rem;
+  color: #707A8A;
+}
+.sec-home .home-cta .lead-magnet .input-col .input-text:hover, .sec-home .home-cta .lead-magnet .input-col .input-text:focus {
+  border-color: #F6D034;
+  box-shadow: none;
+}
+.sec-home .home-img {
+  margin: 6rem 4rem 0 1rem;
+}
+
+.kpis {
+  display: flex;
+  background-color: #FAFAFA;
+  padding: 5.5rem;
+  width: 100%;
+}
+.kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: start;
+}
+.kpis .kpi .number {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+.kpis .kpi .desc {
+  font-size: 0.94rem;
+  color: grey;
+}
+
+.texto_mercados {
+  width: 100%;
+  padding: 0 10rem 0 1rem;
+}
+.texto_mercados .parrafos .parrafo-1 {
+  display: flex;
+}
+.texto_mercados .parrafos .parrafo-1 i {
+  display: flex;
+  margin-right: 0.5rem;
+  color: #707A8A;
+}
+.texto_mercados .parrafos .parrafo-1 p {
+  display: flex;
+  font-size: 0.8rem;
+  color: #707A8A;
+}
+.texto_mercados .parrafos .parrafo-2 {
+  display: flex;
+}
+.texto_mercados .parrafos .parrafo-2 i {
+  display: flex;
+  margin-right: 0.5rem;
+  color: #707A8A;
+}
+.texto_mercados .parrafos .parrafo-2 p {
+  display: flex;
+  font-size: 0.8rem;
+  color: #707A8A;
+}
+
+.cryptolist {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.cryptolist .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cryptolist .encabezado h1 {
+  padding-left: 2rem;
+}
+.cryptolist .encabezado .mercados {
+  display: flex;
+  padding-right: 2rem;
+  color: #707A8A;
+}
+.cryptolist .encabezado .mercados p {
+  padding-right: 0.5rem;
+}
+.cryptolist .encabezado .mercados:hover {
+  color: #F6D034;
+  cursor: pointer;
+}
+.cryptolist .lista {
+  margin-top: 3rem;
+}
+.cryptolist .lista .table .head {
+  color: #707A8A;
+}
+.cryptolist .lista .table .head tr th {
+  font-size: 0.92rem;
+  padding-left: 2rem;
+}
+.cryptolist .lista .table .tbody tr .tipo {
+  display: flex;
+  margin-left: 1rem;
+}
+.cryptolist .lista .table .tbody tr .tipo p {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.cryptolist .lista .table .tbody tr .tipo .bnb2 {
+  font-size: small;
+  color: #707A8A;
+  padding-top: 0.15rem;
+}
+.cryptolist .lista .table .tbody tr .resto {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.cryptolist .lista .table .tbody:hover {
+  cursor: pointer;
+}
+
+.registro {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.registro button {
+  margin-top: 1.5rem;
+}
+
+.beneficios {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+.beneficios .izquierda {
+  display: flex;
+  flex-direction: column;
+}
+.beneficios .izquierda .titulo h1 {
+  max-width: 60%;
+}
+.beneficios .izquierda .titulo p {
+  font-size: 1.25rem;
+}
+.beneficios .izquierda .cuadro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+}
+.beneficios .izquierda .cuadro .descripcion {
+  margin-left: 1rem;
+  max-width: 30rem;
+}
+.beneficios .izquierda .cuadro .descripcion .descripcion-title {
+  font-size: 1.5rem;
+}
+.beneficios .izquierda .cuadro .descripcion .descripcion-text {
+  font-size: 1rem;
+}
+.beneficios .izquierda .btn-main1 {
+  background-color: #F6D034;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  max-width: 30%;
+  margin-top: 3rem;
+}
+.beneficios .izquierda .btn-main1:hover {
+  background-color: #FCD535;
+  color: #2F3136;
+}
+.beneficios .derecha {
+  display: flex;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.benefits {
+  margin-top: 10rem;
+}
+.benefits .encabezado {
+  margin-left: 2rem;
+}
+.benefits .beneficios {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6rem;
+}
+.benefits .beneficios .beneficio-btn {
+  background-color: #FAFAFA;
+  border: none;
+  padding: 1rem;
+}
+.benefits .beneficios .beneficio-btn .descripcion {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.benefits .beneficios .beneficio-btn .descripcion .descripcion-title {
+  font-size: 1.5rem;
+}
+.benefits .beneficios .beneficio-btn .descripcion .descripcion-text {
+  font-size: 1rem;
+}
+.benefits .beneficios .beneficio-btn:hover {
+  transform: translateY(-5px);
+  border-radius: 5px;
+  transition: all 400ms;
+  box-shadow: 5px 10px 18px #707A8A;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+.downloads .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.downloads .encabezado h1 {
+  padding-left: 2rem;
+}
+.downloads .encabezado .desc {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+.downloads .encabezado .opciones {
+  display: flex;
+  padding-right: 2rem;
+  color: #707A8A;
+}
+.downloads .encabezado .opciones p {
+  padding-right: 0.5rem;
+}
+.downloads .encabezado .opciones:hover {
+  color: #F6D034;
+  cursor: pointer;
+}
+.downloads .izquierda {
+  display: flex;
+  flex-direction: column;
+}
+.downloads .izquierda .titulo h1 {
+  max-width: 60%;
+}
+.downloads .izquierda .titulo p {
+  font-size: 1.25rem;
+}
+.downloads .izquierda .apps {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.downloads .izquierda .apps .fila1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.downloads .izquierda .apps .fila1 .app {
+  border: none;
+  background-color: #FFFFFF;
+}
+.downloads .izquierda .apps .fila1 .app i {
+  font-size: 1.5rem;
+  color: #1E2329;
+}
+.downloads .izquierda .apps .fila1 .app p {
+  font-size: 0.8rem;
+}
+.downloads .izquierda .apps .fila1 .app:hover {
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.downloads .izquierda .apps .fila2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.downloads .izquierda .apps .fila2 .app {
+  border: none;
+  background-color: #FFFFFF;
+}
+.downloads .izquierda .apps .fila2 .app i {
+  font-size: 1.5rem;
+  color: #1E2329;
+}
+.downloads .izquierda .apps .fila2 .app p {
+  font-size: 0.8rem;
+}
+.downloads .izquierda .apps .fila2 .app:hover {
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.downloads .izquierda .apps .filault {
+  display: flex;
+  padding: 1rem 0 0 4.8rem;
+}
+.downloads .izquierda .apps .filault .app {
+  border: none;
+  background-color: #FFFFFF;
+}
+.downloads .izquierda .apps .filault .app i {
+  font-size: 1.5rem;
+  color: #1E2329;
+}
+.downloads .izquierda .apps .filault .app p {
+  font-size: 0.8rem;
+}
+.downloads .izquierda .apps .filault .app:hover {
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.downloads .derecha {
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+  margin-left: 0;
+}
+
+.exchange {
+  margin-top: 8rem;
+}
+.exchange .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exchange .encabezado h1 {
+  padding-left: 2rem;
+}
+.exchange .encabezado .desc {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+.exchange .encabezado .opciones {
+  display: flex;
+  padding-right: 2rem;
+  color: #707A8A;
+}
+.exchange .encabezado .opciones p {
+  padding-right: 0.5rem;
+}
+.exchange .encabezado .opciones:hover {
+  color: #F6D034;
+  cursor: pointer;
+}
+.exchange .general {
+  display: flex;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+.exchange .general .izquierda {
+  display: flex;
+  flex-direction: column;
+}
+.exchange .general .izquierda .cuadro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+}
+.exchange .general .izquierda .cuadro .descripcion {
+  margin-left: 1rem;
+  max-width: 30rem;
+}
+.exchange .general .izquierda .cuadro .descripcion .descripcion-title {
+  font-size: 1.5rem;
+}
+.exchange .general .izquierda .cuadro .descripcion .descripcion-text {
+  font-size: 1rem;
+}
+.exchange .general .derecha {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.help {
+  margin-top: 8rem;
+}
+.help .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.help .encabezado h1 {
+  padding-left: 2rem;
+}
+.help .encabezado .desc {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+.help .encabezado .opciones {
+  display: flex;
+  padding-right: 2rem;
+  color: #707A8A;
+}
+.help .encabezado .opciones p {
+  padding-right: 0.5rem;
+}
+.help .encabezado .opciones:hover {
+  color: #F6D034;
+  cursor: pointer;
+}
+.help .general {
+  display: flex;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+.help .general .izquierda {
+  display: flex;
+}
+.help .general .izquierda .cuadro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+}
+.help .general .izquierda .cuadro .descripcion {
+  margin-left: 1rem;
+  max-width: 30rem;
+}
+.help .general .izquierda .cuadro .descripcion .descripcion-title {
+  font-size: 1.5rem;
+}
+.help .general .izquierda .cuadro .descripcion .descripcion-text {
+  font-size: 1rem;
+}
+.help .general .izquierda .informacion {
+  color: #F6D034;
+}
+.help .general .izquierda .informacion:hover {
+  cursor: pointer;
+}
+
+.register2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  background-color: #FAFAFA;
+}
+.register2 button {
+  background-color: #F6D034;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+.register2 button:hover {
+  background-color: #FCD535;
+  color: #2F3136;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .kpis {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 5.5rem;
+    width: 100%;
+  }
+  .kpis .kpi .number {
+    font-size: 2.7rem;
+    font-weight: 600;
+    width: 15rem;
+  }
+  .kpis .kpi .desc {
+    font-size: 0.94rem;
+    color: grey;
+    width: 15rem;
+  }
+  .sec-home .home-cta .home-title {
+    width: 20rem;
+    font-size: 2.5rem;
+  }
+  .sec-home .home-cta .lead-magnet {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-home .home-cta .input-col .input-text {
+    margin-bottom: 1rem;
+  }
+  .registro {
+    width: 20rem;
+  }
+  .beneficios .izquierda .titulo h1 {
+    max-width: 90%;
+  }
+  .beneficios .izquierda .titulo p {
+    max-width: 90%;
+  }
+  .beneficios .izquierda .cuadro .descripcion .descripcion-title {
+    width: 12rem;
+  }
+  .beneficios .izquierda .btn-main1 {
+    max-width: 50%;
+  }
+  .benefits .encabezado {
+    width: 20rem;
+  }
+  .benefits .beneficios {
+    flex-direction: column;
+  }
+  .benefits .beneficios .beneficio-btn .descripcion {
+    max-width: 15rem;
+  }
+  .downloads .encabezado {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .downloads .izquierda {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloads .izquierda .titulo h1 {
+    max-width: 60%;
+  }
+  .downloads .izquierda .titulo p {
+    font-size: 1.25rem;
+  }
+  .downloads .izquierda .apps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  .downloads .izquierda .apps .fila1 {
+    padding-left: -3rem;
+  }
+  .downloads .izquierda .apps .fila1 .app {
+    margin-left: 1rem;
+  }
+  .downloads .izquierda .apps .fila2 {
+    padding-left: -1rem;
+  }
+  .downloads .izquierda .apps .fila2 .app {
+    margin-left: 2rem;
+  }
+  .downloads .izquierda .apps .filault {
+    display: flex;
+    padding-left: 9rem;
+  }
+  .exchange .encabezado {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .exchange .general .izquierda .cuadro .descripcion .descripcion-title {
+    width: 12rem;
+  }
+  .help .general {
+    flex-direction: column;
+  }
+  .help .general .izquierda {
+    flex-direction: column;
+  }
+  .help .general .izquierda .cuadro .descripcion .descripcion-title {
+    width: 12rem;
+  }
+  .help .general .izquierda .cuadro .descripcion .descripcion-text {
+    width: 12rem;
+  }
+  .register2 {
+    width: 20rem;
+    padding-left: 5rem;
+    background-color: white;
+  }
+  .register2 button {
+    margin-right: 1.5rem;
+  }
+  .footer {
+    margin-right: 4rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

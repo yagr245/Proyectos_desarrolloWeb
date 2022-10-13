@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="menu-1">
+            <div class="logo">
+                <a href="#">
+                    <img src="../img/logo.PNG" alt="logo">
+                </a>
+            </div>
+            <div class="menu d-none d-md-block">
+                <ul class="main-menu">
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-grid-3x3-gap-fill cuadricula"></i>
+                            <i class="bi bi-caret-down-fill arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> 
+                            Comprar Criptos
+                            <span class="badge text-bg-warning">VES</span>
+                            <i class="bi bi-caret-down-fill arrow"></i>
+                        </a>  
+                    </li>
+                    <li><a href="#"> Mercados</a></li>
+                    <li>
+                        <a href="#">
+                            Trading 
+                            <i class="bi bi-caret-down-fill arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> 
+                            Earn
+                            <i class="bi bi-caret-down-fill arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> 
+                            Finanzas
+                            <i class="bi bi-caret-down-fill arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> 
+                            NFT
+                            <span class="badge text-bg-warning">New</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="get-started d-none d-md-block">
+            <button class="btn-sec">Iniciar Sesión</button>
+            <button class="btn-main">Registrarse</button>
+            <i class="bi bi-list icon-start"></i>
+        </div>
+    </nav>
+    <section class="sec-home">
+        <div class="home-cta">
+            <h2 class="home-title h1">Compra, haz trading y holdea más de 600 criptomonedas</h2>
+            <div class="lead-magnet row align-items-center">
+                <div class="col input-col">
+                    <input type="text" class="form-control input-text" placeholder="Correo o número de teléfono">
+                </div>
+                <div class="col">
+                    <button class="btn-start">Empezar</button>
+                </div>
+            </div>
+        </div>
+        <div class="home-img d-none d-md-block">
+            <img src="../Img/home.PNG" alt="home">
+        </div>
+    </section>
+    <section class="kpis">
+        <div class="kpi col-md">
+            <span class="number">70 000 M€</span>
+            <span class="desc">de volumen de trading en 24 h en el exchange de Binance</span>
+        </div>
+        <div class="kpi col-md">
+            <span class="number">Más de 350</span>
+            <span class="desc">criptomonedas disponibles</span>
+        </div>
+        <div class="kpi col-md">
+            <span class="number">90 millones</span>
+            <span class="desc">de usuarios confían en Binance</span>
+        </div>
+        <div class="kpi col-md">
+            <span class="number">Menos del 0,10 %,</span>
+            <span class="desc">las comisiones de transacción más bajas</span>
+        </div>
+    </section>
+    <section class="texto_mercados">
+        <div class="parrafos">
+            <div class="parrafo-1">
+                <i class="bi bi-file-earmark-text-fill"></i>
+                <p>La inversión en criptoactivos no está regulada, puede no ser adecuada para inversores minoristas y perderse la totalidad del importe invertido.</p>
+            </div>
+            <div class="parrafo-2">
+                <i class="bi bi-file-earmark-text-fill"></i>
+                <p>Es importante leer y comprender los riesgos de esta inversión que se explican detalladamente en esta ubicación.</p>
+            </div>
+        </div>
+    </section>
+    <section class="cryptolist">
+        <div class="encabezado">
+            <h1>Criptomonedas populares</h1>
+            <div class="mercados">
+                <p>Ver más mercados</p>
+                <i class="bi bi-chevron-right "></i>
+            </div>
+        </div>
+        <div class="lista">
+            <table class="table table-borderless table-hover ">
+                <thead class="head">
+                  <tr class="cabecera">
+                    <th class="fw-normal">Criptomoneda</th>
+                    <th class="fw-normal">Último precio</th>
+                    <th class="fw-normal">Cambio en 24 h</th>
+                    <th class="fw-normal">Cap. de mercado</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody">
+                    <tr>
+                        <td class="tipo">
+                            <img src="../img/binancecoin.png" alt="binancecoin">
+                            <p class="bnb fw-semibold">BNB</p>
+                            <p class="bnb2">BNB</p>
+                        </td>
+                        <td class="resto">269,9 €</td>
+                        <td class="resto text-danger">-1,37 %</td>
+                        <td class="resto">43.572 M€</td>
+                    </tr>
+                    <tr>
+                        <td class="tipo">
+                            <img src="../img/bitcoin.png" alt="bitcoin">
+                            <p class="bnb fw-semibold">Bitcoin</p>
+                            <p class="bnb2">BTC</p>
+                        </td>
+                        <td class="resto">19.549 €</td>
+                        <td class="resto text-success">+1,39 %</td>
+                        <td class="resto">374.082 M€</td>
+                    </tr>
+                    <tr>
+                        <td class="tipo">
+                            <img src="../img/busd.png" alt="busd">
+                            <p class="bnb fw-semibold">BUSD</p>
+                            <p class="bnb2">BUSD</p>
+                        </td>
+                        <td class="resto">1,01 €</td>
+                        <td class="resto text-success">+0.01 %</td>
+                        <td class="resto">20.722 M€</td>
+                    </tr>
+                    <tr>
+                        <td class="tipo">
+                            <img src="../img/etherium.png" alt="etherium">
+                            <p class="bnb fw-semibold">Etherium</p>
+                            <p class="bnb2">ETH</p>
+                        </td>
+                        <td class="resto">1364 €</td>
+                        <td class="resto text-danger">-1,32 %</td>
+                        <td class="resto">166.956 M€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="register">
+        <div class="registro">
+            <h4>Regístrate ahora para crear tu cartera gratis</h4>
+            <button class="btn-start">Empezar</button>
+        </div>
+    </section>
+    <section class="creation">
+        <div class="beneficios">
+            <div class="izquierda">
+                <div class="titulo">
+                    <h1 class="titulo1">Crea tu cartera de criptomonedas</h1>
+                    <p class="description-titulo">Haz tu primera operación siguiendo estos sencillos pasos:</p>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-person-fill"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Deposita fondos en tu cuenta</h4>
+                        <p class="descripcion-text">Añade fondos a tu cuenta de criptomonedas para comenzar a operar. Puedes añadir fondos a través de distintos métodos de pago.</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-card-text"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Verifica tu identidad</h4>
+                        <p class="descripcion-text">Completa el proceso de verificación de identidad para proteger tu cuenta y tus transacciones.</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-currency-exchange"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Empieza a operar</h4>
+                        <p class="descripcion-text">¡Ya lo tienes todo listo! Compra y vende criptomonedas, establece compras recurrentes para tus inversiones y descubre todos los productos de Binance.</p>
+                    </div>
+                </div>
+                <button class="btn-main1">Empezar</button>
+            </div>
+            <div class="derecha">
+                <img src="../img/phone.PNG" alt="phone">
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="encabezado">
+            <h1>Explora un sinfín de posibilidades con Binance</h1>
+        </div>
+        <div class="beneficios">
+            <button class="beneficio-btn">
+                <span class="imagen d-none d-md-block">
+                    <img src="../img/1erbeneficio.PNG" alt="1ro">
+                </span>
+                <div class="descripcion">
+                    <h4 class="descripcion-title">Sumergete en el mundo de los NFT</h4>
+                    <p class="descripcion-text">Abre cajas misteriosas, descubre los proyectos de IGO, Fan tokens y mucho más en Binance NFT</p>
+                </div>
+            </button>
+            <button class="beneficio-btn">
+                <div class="descripcion">
+                    <h4 class="descripcion-title">Haz crecer tu negocio con Binance Pay</h4>
+                    <p class="descripcion-text">Con nuestra tecnología de pagos sin fronteras, podrás llegar a más clientes efectuando y recibiendo pagos en criptomonedas en Binance Pay y en el mercado de Binance</p>
+                </div>
+                <span class="imagen d-none d-md-block">
+                    <img src="../img/2dobeneficio.PNG" alt="2do">
+                </span>
+            </button>
+            <button class="beneficio-btn">
+                <span class="imagen d-none d-md-block">
+                    <img src="../img/3erbeneficio.PNG" alt="1ro">
+                </span>
+                <div class="descripcion">
+                    <h4 class="descripcion-title">Binance Earn</h4>
+                    <p class="descripcion-text">Gana intereses por bloquear tus criptomonedas</p>
+                </div>
+            </button>
+        </div>
+    </section>
+    <section class="downloads">
+        <div class="encabezado">
+            <div class="titulo">
+                <h1>Opera cuando quieras y donde quieras</h1>
+                <p class="desc">Mantente al día con nuestra aplicación, web o desde nuestro programa para escritorio.</p>
+            </div>
+            <div class="opciones">
+                <p>Más opciones de descarga</p>
+                <i class="bi bi-chevron-right "></i>
+            </div>
+        </div>
+        <div class="beneficios">
+            <div class="derecha d-none d-md-block">
+                <img src="../img/computer.PNG" alt="phone">
+            </div>
+            <div class="izquierda">
+                <div class="titulo">
+                    <img src="../img/qr.PNG" alt="">
+                </div>
+                <div class="apps">
+                    <div class="fila1">
+                        <button class="app">
+                            <i class="bi bi-apple"></i>
+                            <p>App Store</p>
+                        </button>
+                        <button class="app">
+                            <i class="bi bi-android"></i>
+                            <p>Android APK</p>
+                        </button>
+                        <button class="app">
+                            <i class="bi bi-google-play"></i>
+                            <p>Google Play</p>
+                        </button>
+                    </div>
+                    <div class="fila2">
+                        <button class="app">
+                            <i class="bi bi-x-circle-fill"></i>
+                            <p>MacOS</p>
+                        </button>
+                        <button class="app">
+                            <i class="bi bi-windows"></i>
+                            <p>Windows</p>
+                        </button>
+                        <button class="app">
+                            <i class="bi bi-ubuntu"></i>
+                            <p>Linux</p>
+                        </button>
+                    </div>
+                    <div class="filault">
+                        <button class="app">
+                            <i class="bi bi-plugin"></i>
+                            <p>API</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exchange">
+        <div class="encabezado">
+            <div class="titulo">
+                <h1>Tu exchange de criptomonedas de confianza</h1>
+                <p class="desc">En Binance, abogamos por la protección de los usuarios a través de protocolos estrictos y mecanismos de carácter técnico punteros en el sector.</p>
+            </div>
+            <div class="opciones">
+                <p>Más información</p>
+                <i class="bi bi-chevron-right "></i>
+            </div>
+        </div>
+        <div class="general">
+            <div class="izquierda">
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-safe2-fill"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Fondo de activos seguro para usuarios (SAFU)</h4>
+                        <p class="descripcion-text">Binance almacena el 10 % de todas las comisiones de trading en un fondo de activos seguro para proteger una parte de los fondos de los usuarios.</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-eye-fill"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Control de acceso personalizado</h4>
+                        <p class="descripcion-text">Los controles de acceso avanzados te permiten limitar los dispositivos y las direcciones que pueden acceder a tu cuenta para brindarte una mayor tranquilidad.</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-file-lock-fill"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Cifrado de datos avanzado</h4>
+                        <p class="descripcion-text">Los datos de tus transacciones se protegen mediante un cifrado de extremo a extremo, lo que garantiza que solo tú tengas acceso a tu información personal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha">
+                <img src="../img/exchange.PNG" alt="phone">
+            </div>
+        </div>
+    </section>
+    <section class="help">
+        <div class="encabezado">
+            <h1>¿Necesitas ayuda?</h1>
+        </div>
+        <div class="general">
+            <div class="izquierda">
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-headset"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Chat de asistencia ininterrumpido</h4>
+                        <p class="descripcion-text">Obtén asistencia de forma ininterrumpida por parte de los agentes de nuestro servicio de atención al cliente.</p>
+                        <p class="informacion">Chatear ahora</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-chat-right-text"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Preguntas frecuentes</h4>
+                        <p class="descripcion-text">Consulta las preguntas frecuentes para obtener instrucciones precisas sobre funciones específicas.</p>
+                        <p class="informacion">Más información</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <span class="icon-sm">
+                        <i class="bi bi-file-earmark-richtext"></i>
+                    </span>
+                    <div class="descripcion">
+                        <h4 class="descripcion-title">Blog</h4>
+                        <p class="descripcion-text">Mantente al día de las últimas historias y reportajes.</p>
+                        <p class="informacion">Más información</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="register2">
+        <div class="encabezado">
+            <h1>Únete a más de 90 millones de personas</h1>
+        </div>
+        <button class="btn-main">Registrate ahora</button>
+    </section>
+    <section class="footer">
+        <p>Binance © 2022</p>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>

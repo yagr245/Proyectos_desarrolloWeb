@@ -1,0 +1,42 @@
+
+.seccion{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 41rem;
+    height: 13rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container2{
+    width: 40rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3A4A8;
+}
+
+.display{
+    width: 95%;
+    height: 11rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    background-color: black;
+    color: #05c205;
+    text-shadow: -1px -1px #05b605, -2px -2px #05a805d2, -4px -4px #038f03d2, -5px -5px #048304d2;
+}
+
